@@ -8,9 +8,15 @@ colors {
 
 }
 
+a {
+    all: unset;
+}
+
+a:hover {
+    color: white;
+}
+
 .background {
-    width: 100vw;
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,12 +75,12 @@ colors {
 
 .headeritemfirst {
     margin:1vw;
-    margin-left: 5vw;
+    margin-left: 7vw;
 }
 
 @font-face {
     font-family: exo;
-    src: url(https: //jrandeblad.github.io/Portfolio/fonts/Exo2-Black.ttf);
+    src: url(https://jrandeblad.github.io/Portfolio/fonts/Exo2-Black.ttf);
 }
 
 .pagecontainer {
@@ -107,10 +113,17 @@ colors {
     align-items: center;
 }
 
-.sidebaritem > img {
+.sidebaritem > a > img {
     width:2.5vw;
     height:2.5vw;
     padding-top: 2.5vw;
+}
+
+.sidebaritem1 > a >img {
+    width: 2.5vw;
+    height: 2.5vw;
+    padding-top: 2.5vw;
+    margin-right:0.6vw;
 }
 
 .maincontainer {
@@ -229,4 +242,12 @@ li:hover {
 
 .contact > h1 {
     margin-top: 5vh;
+}
+
+.contact > a > img {
+    width: 1vw;
+    height: 1vw;
+    margin-top: 0.5vh;
+    position: relative;
+    top: 0.5vh;
 }
